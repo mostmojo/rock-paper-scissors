@@ -27,10 +27,20 @@ const game = () => {
         const computerNumber = Math.floor(Math.random() * 3);
         const computerChoice = computerOptions[computerNumber];
         // Here's where we call compareHands
+        compareHands(this.textContent, computerChoice);
 
         // Update images
+        playerHand.src = `./assets/${this.textContent}.png`;
+        computerHand.src = `./assets/${computerChoice}.png`;
       });
     });
+  };
+
+  const updateScore = () => {
+    const playerScore = document.querySelector(".player-score p");
+    const computerScore = document.querySelector(".computer-score p");
+    playerScore.textContent = pScore;
+    computerScore.textContent = cScore;
   };
 
   const compareHands = (playerChoice, computerChoice) => {
@@ -45,9 +55,13 @@ const game = () => {
     if (playerChoice === "rock") {
       if (computerChoice === "scissors") {
         winner.textContent = "Player wins! 😎";
+        pScore++;
+        updateScore();
         return;
       } else {
         winner.textContent = "Computer wins! 🤖";
+        cScore++;
+        updateScore();
         return;
       }
     }
@@ -55,9 +69,13 @@ const game = () => {
     if (playerChoice === "paper") {
       if (computerChoice === "scissors") {
         winner.textContent = "Computer wins! 🤖";
+        cScore++;
+        updateScore();
         return;
       } else {
         winner.textContent = "Player wins! 😎";
+        pScore++;
+        updateScore();
         return;
       }
     }
@@ -65,9 +83,13 @@ const game = () => {
     if (playerChoice === "scissors") {
       if (computerChoice === "rock") {
         winner.textContent = "Computer wins! 🤖";
+        cScore++;
+        updateScore();
         return;
       } else {
         winner.textContent = "Player wins! 😎";
+        pScore++;
+        updateScore();
         return;
       }
     }
