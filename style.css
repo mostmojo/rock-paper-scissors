@@ -89,5 +89,5 @@ div.fadeOut {
 /* to reveal buttons and clicks */
 div.fadeIn {
   opacity: 1;
-  pointer-events: none;
+  pointer-events: all;
 }
