@@ -26,9 +26,19 @@ const game = () => {
         // Computer's choice
         const computerNumber = Math.floor(Math.random() * 3);
         const computerChoice = computerOptions[computerNumber];
-        console.log(computerChoice);
+        // Here's where we call compareHands
       });
     });
+  };
+
+  const compareHands = (playerChoice, computerChoice) => {
+    //Update the text
+    const winner = document.querySelector(".winner");
+    // Check for a draw
+    if (playerChoice === computerChoice) {
+      winner.textContent = "It's a draw!";
+      return;
+    }
   };
 
   // Call the inner function to invoke it within the game function
