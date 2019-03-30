@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,12 +8,12 @@
 
 section {
   height: 100vh;
-  background-color: #484848;
-  font-family: sans-serif;
+  background-color: #e9eff3;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .score {
-  color: rgb(224, 224, 224);
+  color: #767676;
   height: 20vh;
   display: flex;
   justify-content: space-around;
@@ -29,7 +31,7 @@ section {
 }
 
 .intro {
-  color: rgb(224, 224, 224);
+  color: #767676;
   height: 50vh;
   display: flex;
   flex-direction: column;
@@ -42,8 +44,14 @@ section {
   font-size: 50px;
 }
 
+@media only screen and (max-width: 600px) {
+  .intro h1 {
+    font-size: 34px;
+  }
+}
+
 .intro button,
-.match button {
+.options button {
   width: 150px;
   height: 50px;
   background: none;
@@ -64,7 +72,7 @@ section {
 }
 
 .winner {
-  color: rgb(224, 224, 224);
+  color: #767676;
   text-align: center;
   font-size: 50px;
 }
