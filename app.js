@@ -27,6 +27,8 @@ const game = () => {
         const computerNumber = Math.floor(Math.random() * 3);
         const computerChoice = computerOptions[computerNumber];
         // Here's where we call compareHands
+
+        // Update images
       });
     });
   };
@@ -38,6 +40,36 @@ const game = () => {
     if (playerChoice === computerChoice) {
       winner.textContent = "It's a draw!";
       return;
+    }
+    // Check for rock
+    if (playerChoice === "rock") {
+      if (computerChoice === "scissors") {
+        winner.textContent = "Player wins! 😎";
+        return;
+      } else {
+        winner.textContent = "Computer wins! 🤖";
+        return;
+      }
+    }
+    // Check for paper
+    if (playerChoice === "paper") {
+      if (computerChoice === "scissors") {
+        winner.textContent = "Computer wins! 🤖";
+        return;
+      } else {
+        winner.textContent = "Player wins! 😎";
+        return;
+      }
+    }
+    // Check for scissors
+    if (playerChoice === "scissors") {
+      if (computerChoice === "rock") {
+        winner.textContent = "Computer wins! 🤖";
+        return;
+      } else {
+        winner.textContent = "Player wins! 😎";
+        return;
+      }
     }
   };
 
