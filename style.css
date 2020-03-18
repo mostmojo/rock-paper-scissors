@@ -53,12 +53,24 @@ section {
 
 .score h2 {
 	font-size: 30px;
+	font-family: 'Clip', sans-serif;
 }
 
 .score p {
 	text-align: center;
 	font-size: 24px;
 	padding: 10px;
+	font-family: 'Clip';
+}
+
+.player-score-text {
+	color: #fef992;
+	text-shadow: 0.1vw 0vw 0.25vw #fef992, 0.2vw 0vw 0.25vw #fab739;
+}
+
+.computer-score-text {
+	color: #f681fd;
+	text-shadow: 0.1vw 0vw 0.25vw ##f681fd, 0.2vw 0vw 0.25vw #e900c5;
 }
 
 .intro {
