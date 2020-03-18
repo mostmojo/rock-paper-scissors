@@ -10,11 +10,11 @@ section {
 	height: 100vh;
 	/* background-color: #e9eff3; */
 	font-family: 'Fira Sans', sans-serif;
-	background-image: url(./assets/background_mob.png);
-	background-repeat: no-repeat;
+	/* background-image: url(./assets/background_mob.png); */
+	/* background-repeat: no-repeat; */
 	/* z-index: -1; */
 	/* object-fit: contain; */
-	background-position: center;
+	/* background-position: center; */
 }
 
 .score {
