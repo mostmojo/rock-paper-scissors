@@ -35,7 +35,7 @@ body {
 section {
 	height: 100vh;
 	/* background-color: #e9eff3; */
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Clip', sans-serif;
 	/* background-image: url(./assets/background_mob.png); */
 	/* background-repeat: no-repeat; */
 	/* z-index: -1; */
@@ -104,6 +104,7 @@ section {
 	background-color: #008489;
 	border-radius: 4px;
 	cursor: pointer;
+	margin: 0 0.2rem;
 }
 
 .match {
