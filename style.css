@@ -91,16 +91,8 @@ section {
 	font-size: 50px;
 }
 
-@media only screen and (max-width: 600px) {
-	.intro h1 {
-		font-size: 34px;
-	}
-}
-
-.intro button,
 .options button {
-	width: 150px;
-	height: 50px;
+	padding: 1rem 2rem;
 	background: none;
 	border: none;
 	color: rgb(224, 224, 224);
@@ -267,4 +259,51 @@ div.fadeIn {
 	top: -9999px;
 	left: -9999px;
 	transition: all 1.5s ease;
+}
+
+@media only screen and (max-width: 600px) {
+	.intro h1 {
+		font-size: 34px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.neon-wrapper {
+		padding: 1rem 3rem;
+	}
+	.neon-text,
+	.neon-text-yellow,
+	.neon-text-lg {
+		font-size: 0.8rem;
+	}
+
+	.intro button {
+		font-size: 0.8rem;
+		margin: 0;
+	}
+
+	.intro h1 {
+		font-size: 1.4rem;
+	}
+
+	.score h2 {
+		font-size: 1.2rem;
+	}
+
+	.winner {
+		font-size: 1.4rem;
+	}
+
+	.hands {
+		justify-content: center;
+	}
+
+	.computer-hand,
+	.player-hand {
+		width: 36vw;
+	}
+
+	.options button {
+		padding: 0.5rem 1.2rem;
+		font-size: 1rem;
+	}
 }
