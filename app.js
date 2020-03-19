@@ -21,9 +21,9 @@ const game = () => {
 		const computerHand = document.querySelector('.computer-hand');
 		const hands = document.querySelectorAll('.hands img');
 		const winningMap = {
-			'rock': 'scissors',
-			'paper': 'rock',
-			'scissors': 'paper'
+			rock: 'scissors',
+			paper: 'rock',
+			scissors: 'paper'
 		};
 
 		hands.forEach(hand => {
@@ -76,49 +76,48 @@ const game = () => {
 		// Check for a draw
 		if (playerChoice === computerChoice) {
 			winner.textContent = "It's a draw!";
-			return;
 		}
 		// Check for rock
-		if (playerChoice === 'rock') {
+		else if (playerChoice === 'rock') {
 			if (computerChoice === 'scissors') {
 				winner.textContent = 'You win! 😎';
 				pScore++;
 				updateScore();
-				return;
 			} else {
 				winner.textContent = 'Matrix82 wins! 🤖';
 				cScore++;
 				updateScore();
-				return;
 			}
 		}
 		// Check for paper
-		if (playerChoice === 'paper') {
+		else if (playerChoice === 'paper') {
 			if (computerChoice === 'scissors') {
 				winner.textContent = 'Matrix82 wins! 🤖';
 				cScore++;
 				updateScore();
-				return;
 			} else {
 				winner.textContent = 'You win! 😎';
 				pScore++;
 				updateScore();
-				return;
 			}
 		}
 		// Check for scissors
-		if (playerChoice === 'scissors') {
+		else if (playerChoice === 'scissors') {
 			if (computerChoice === 'rock') {
 				winner.textContent = 'Matrix82 wins! 🤖';
 				cScore++;
 				updateScore();
-				return;
 			} else {
 				winner.textContent = 'You win! 😎';
 				pScore++;
 				updateScore();
-				return;
 			}
+		}
+
+		if (count == 3) {
+			setTimeout(() => {
+				alert('Congratulations, you won!');
+			}, 1000);
 		}
 	};
 
