@@ -1,6 +1,7 @@
 const game = () => {
 	let pScore = 0;
 	let cScore = 0;
+	let count = 0;
 
 	const startGame = () => {
 		const playBtn = document.querySelector('.intro button');
@@ -19,6 +20,11 @@ const game = () => {
 		const playerHand = document.querySelector('.player-hand');
 		const computerHand = document.querySelector('.computer-hand');
 		const hands = document.querySelectorAll('.hands img');
+		const winningMap = {
+			'rock': 'scissors',
+			'paper': 'rock',
+			'scissors': 'paper'
+		};
 
 		hands.forEach(hand => {
 			hand.addEventListener('animationend', function() {
@@ -31,13 +37,19 @@ const game = () => {
 
 		options.forEach(option => {
 			option.addEventListener('click', function() {
-				// Computer's choice
-				const computerNumber = Math.floor(Math.random() * 3);
-				const computerChoice = computerOptions[computerNumber];
+				count++;
+				const usersChoice = option.textContent;
+
+				// Computer's choice - On game 3, let user win
+				let computerChoice = winningMap[usersChoice];
+				if (count !== 3) {
+					const computerNumber = Math.floor(Math.random() * 3);
+					computerChoice = computerOptions[computerNumber];
+				}
 
 				setTimeout(() => {
 					// Here's where we call compareHands
-					compareHands(this.textContent, computerChoice);
+					compareHands(usersChoice, computerChoice);
 
 					// Update images
 					playerHand.src = `./assets/${this.textContent}.png`;
