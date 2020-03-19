@@ -1,5 +1,4 @@
-// Hide welcome note
-
+// Hide welcome note on click
 const goButton = document.getElementById('btn');
 const welcomeContainer = document.getElementById('neon_wrapper');
 
