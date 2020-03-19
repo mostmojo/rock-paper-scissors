@@ -3,12 +3,12 @@
 
 @font-face {
 	font-family: 'Clip';
-	src: url(./assets/Clip.ttf);
+	src: url(../Clip.ttf);
 }
 
 @font-face {
 	font-family: 'Segoe UI';
-	src: url(./assets/SegoeUI.ttf);
+	src: url(../SegoeUI.ttf);
 }
 
 .clip {
@@ -32,7 +32,7 @@
 } */
 
 body {
-	background-image: url('./assets/wall.jpeg');
+	background-image: url('../wall.jpeg');
 	background-size: auto 100%;
 }
 
