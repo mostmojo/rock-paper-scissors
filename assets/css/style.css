@@ -96,11 +96,16 @@ section {
 	border: none;
 	color: rgb(224, 224, 224);
 	font-size: 20px;
-	background-color: #5467b6;
+	background-color: #172c87;
 	border-radius: 4px;
 	cursor: pointer;
 	margin: 0 0.2rem;
-	font-family: 'Segoe UI', sans-serif;
+	font-family: 'Clip', sans-serif;
+}
+
+.options button:hover {
+	background-color: #0f1f68;
+	transform: translateY(2px);
 }
 
 .match {
