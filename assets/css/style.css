@@ -298,11 +298,57 @@ div.fadeIn {
 	margin-left: 18%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575px) {
 	.intro h1 {
 		font-size: 34px;
 	}
+	.neon-wrapper {
+		padding: 3.5rem 8rem;
+	}
+	.neon-text,
+	.neon-text-yellow,
+	.neon-text-lg {
+		font-size: 1.5rem;
+	}
+
+	.intro {
+		width: 90%;
+	}
+
+	.backdrop-images {
+		margin-top: 0%;
+	}
+
+	.winner {
+		font-size: 45px;
+	}
+
+	.hands {
+		margin-bottom: 1rem;
+	}
+
+	.score-logo {
+		margin-left: 3rem;
+	}
+
+	.congrats-container {
+		width: 35rem;
+	}
+
+	.congrats-content {
+		padding: 24% 12% !important;
+	}
+
+	.congrats-header {
+		margin-bottom: 0.5rem;
+	}
+
+	.congrats-btn {
+		padding: 0.2rem 2rem !important;
+		width: 52% !important;
+	}
 }
+
 @media only screen and (max-width: 375px) {
 	.neon-wrapper {
 		padding: 2rem 3rem;
@@ -352,11 +398,11 @@ div.fadeIn {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	posiiton: absolute;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	animation: all 0.4s ease;
 }
 
 .congrats-content {
