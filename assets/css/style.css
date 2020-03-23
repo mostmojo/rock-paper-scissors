@@ -420,7 +420,7 @@ div.fadeIn {
 
 .congrats-container {
 	display: none;
-	background-image: url('/assets/Congratulations_box.png');
+	background-image: url('./assets/Congratulations_box.png');
 	height: 35rem;
 	background-repeat: no-repeat;
 	background-position: center;
