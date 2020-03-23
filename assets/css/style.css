@@ -399,6 +399,7 @@ div.fadeIn {
 	color: #fff;
 	font-family: Arial;
 	letter-spacing: 1.2px;
+	cursor: pointer;
 }
 .congrats-btn:hover {
 	transform: translateY(2.5px);
