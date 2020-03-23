@@ -66,8 +66,8 @@ section {
 }
 
 .player-score-text {
-	color: #fef992;
-	text-shadow: 0.1vw 0vw 0.25vw #fef992, 0.2vw 0vw 0.25vw #fab739;
+	color: #f681fd;
+	text-shadow: 0.1vw 0vw 0.25vw ##f681fd, 0.2vw 0vw 0.25vw #e900c5;
 }
 
 .computer-score-text {
@@ -282,9 +282,9 @@ div.fadeIn {
 		font-size: 34px;
 	}
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
 	.neon-wrapper {
-		padding: 1rem 3rem;
+		padding: 2rem 3rem;
 	}
 	.neon-text,
 	.neon-text-yellow,
