@@ -29,9 +29,9 @@ window.onload = function() {
 	timerBoot(threeMins, display);
 };
 
-// Show congrats container
+// // Show congrats container
 
-const congratsCon = document.getElementById('congratsCon');
-(function() {
-	congratsCon.style.display = 'block';
-});
+// const congratsCon = document.getElementById('congratsCon');
+// (function() {
+// 	congratsCon.style.display = 'block';
+// });
