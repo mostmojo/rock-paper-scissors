@@ -362,7 +362,27 @@ div.fadeIn {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	padding: 22%;
+	padding: 18%;
+}
+
+.congrats-header {
+	font-family: 'Clip', sans-serif;
+	color: #fef992;
+	text-shadow: 0.1vw 0vw 0.25vw #fef992, 0.2vw 0vw 0.25vw #fab739;
+	font-size: 2.5rem;
+}
+
+.congrats-text {
+	font-family: 'Segoe UI';
+	color: #fff;
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.congrats-text-span {
+	font-family: 'Segoe UI';
+	color: #fef992;
+	font-size: 1.5rem;
 }
 
 .congrats-btn {
