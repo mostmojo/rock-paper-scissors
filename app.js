@@ -116,7 +116,7 @@ const game = () => {
 
 		if (count == 3) {
 			setTimeout(() => {
-				alert('Congratulations, you won!');
+				document.getElementById('congratsCon').style.display = 'block';
 			}, 1000);
 		}
 	};

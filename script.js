@@ -28,3 +28,10 @@ window.onload = function() {
 		display = document.querySelector('#countdown');
 	timerBoot(threeMins, display);
 };
+
+// Show congrats container
+
+const congratsCon = document.getElementById('congratsCon');
+(function() {
+	congratsCon.style.display = 'block';
+});
