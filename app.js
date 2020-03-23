@@ -49,7 +49,7 @@ const game = () => {
 
 				setTimeout(() => {
 					// Here's where we call compareHands
-					compareHands(usersChoice.toLowerCase(), computerChoice);
+					compareHands(usersChoice, computerChoice);
 
 					// Update images
 					playerHand.src = `./assets/${this.textContent}.png`;
