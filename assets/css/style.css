@@ -67,12 +67,12 @@ section {
 
 .player-score-text {
 	color: #f681fd;
-	text-shadow: 0.1vw 0vw 0.25vw ##f681fd, 0.2vw 0vw 0.25vw #e900c5;
+	text-shadow: 0.1vw 0vw 0.25vw #f681fd, 0.2vw 0vw 0.25vw #e900c5;
 }
 
 .computer-score-text {
 	color: #f681fd;
-	text-shadow: 0.1vw 0vw 0.25vw ##f681fd, 0.2vw 0vw 0.25vw #e900c5;
+	text-shadow: 0.1vw 0vw 0.25vw #f681fd, 0.2vw 0vw 0.25vw #e900c5;
 }
 
 .intro {
@@ -117,7 +117,8 @@ section {
 }
 
 .winner {
-	color: #767676;
+	color: #fff;
+	text-shadow: 0.1vw 0vw 0.25vw #8e8e8e, 0.2vw 0vw 0.25vw #a9a9a9;
 	text-align: center;
 	font-size: 50px;
 }
@@ -496,4 +497,5 @@ div.fadeIn {
 	justify-content: center;
 	color: #f681fd;
 	padding: 1rem 4rem;
+	text-shadow: 0.1vw 0vw 0.25vw #f681fd, 0.2vw 0vw 0.25vw #e900c5;
 }
