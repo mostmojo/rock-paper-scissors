@@ -91,10 +91,11 @@ section {
 }
 
 .options button {
-	padding: 1rem 2rem;
+	padding: 0.8rem 2rem;
 	background: none;
 	border: none;
 	color: rgb(224, 224, 224);
+	text-shadow: 0.1vw 0vw 0.25vw #8e8e8e, 0.2vw 0vw 0.25vw #a9a9a9;
 	font-size: 20px;
 	background-color: #172c87;
 	border-radius: 4px;
@@ -333,10 +334,6 @@ div.fadeIn {
 		margin-bottom: 1rem;
 	}
 
-	/* .score-logo {
-		margin-left: 3rem;
-	} */
-
 	.congrats-container {
 		width: 35rem;
 	}
@@ -378,6 +375,15 @@ div.fadeIn {
 		font-size: 1.2rem;
 	}
 
+	.score-logo img {
+		height: 3rem;
+	}
+
+	.options button {
+		padding: 0.5rem 1rem;
+		font-size: 18px;
+	}
+
 	.winner {
 		font-size: 1.4rem;
 	}
@@ -389,11 +395,6 @@ div.fadeIn {
 	.computer-hand,
 	.player-hand {
 		width: 36vw;
-	}
-
-	.options button {
-		padding: 0.5rem 1.2rem;
-		font-size: 1rem;
 	}
 
 	.congrats-container {
@@ -472,6 +473,7 @@ div.fadeIn {
 	text-decoration: none;
 	font-size: 1.5rem;
 	color: #fff;
+	text-shadow: 0.1vw 0vw 0.25vw #8e8e8e, 0.2vw 0vw 0.25vw #a9a9a9;
 	font-family: Arial;
 	letter-spacing: 1.2px;
 	cursor: pointer;
