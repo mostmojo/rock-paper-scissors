@@ -98,7 +98,7 @@ section {
 	text-shadow: 0.1vw 0vw 0.25vw #8e8e8e, 0.2vw 0vw 0.25vw #a9a9a9;
 	font-size: 20px;
 	background-color: #172c87;
-	border-radius: 4px;
+	border-radius: 2px;
 	cursor: pointer;
 	margin: 0 0.2rem;
 	font-family: 'Clip', sans-serif;
@@ -305,6 +305,16 @@ div.fadeIn {
 	margin-left: 18%;
 }
 
+@media only screen and (max-width: 714px) {
+	.neon-wrapper {
+		padding: 1rem 1rem;
+	}
+
+	.neon-text-lg {
+		font-size: 1.6rem;
+	}
+}
+
 @media only screen and (max-width: 575px) {
 	.intro h1 {
 		font-size: 34px;
@@ -381,7 +391,7 @@ div.fadeIn {
 
 	.options button {
 		padding: 0.5rem 1rem;
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.winner {
