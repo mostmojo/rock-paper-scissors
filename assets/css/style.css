@@ -462,6 +462,9 @@ div.fadeIn {
 		width: 75% !important;
 		font-size: 1rem !important;
 	}
+
+	.backdrop-images {
+    justify-content: center;
 }
 
 .congrats-container {
