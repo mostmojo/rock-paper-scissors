@@ -464,7 +464,8 @@ div.fadeIn {
 	}
 
 	.backdrop-images {
-    justify-content: center;
+		justify-content: center;
+	}
 }
 
 .congrats-container {
@@ -498,9 +499,23 @@ div.fadeIn {
 	}
 
 	#countdown {
-    font-size: 1rem !important;
+		font-size: 1rem !important;
 	}
 }
+
+/* .congrats-container {
+	display: none;
+	background-image: url('../Congratulations_box.png');
+	height: 35rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: all 0.4s ease;
+} */
 
 .congrats-content {
 	display: flex;
