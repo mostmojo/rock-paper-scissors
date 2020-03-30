@@ -250,7 +250,7 @@ div.fadeIn {
 	font-size: 1.5rem;
 	color: #fef992;
 	text-shadow: 0.1vw 0vw 0.25vw #fef992, 0.2vw 0vw 0.25vw #fab739;
-	display: block;
+	display: inline-block;
 }
 
 .neon-text-lg {
@@ -393,6 +393,10 @@ div.fadeIn {
 
 	#countdown {
 		font-size: 1.5rem !important;
+	}
+
+	.congrats-text {
+		margin-bottom: 0.5rem !important;
 	}
 }
 
