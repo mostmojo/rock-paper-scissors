@@ -438,7 +438,7 @@ div.fadeIn {
 
 	.computer-hand,
 	.player-hand {
-		width: 36vw;
+		height: 6rem;
 	}
 
 	.congrats-container {
