@@ -225,7 +225,7 @@ div.fadeIn {
 }
 
 .pulse {
-	animation: pulse 2s infinite;
+	animation: pulse 1.5s infinite;
 }
 
 .neon-wrapper {
@@ -321,12 +321,25 @@ div.fadeIn {
 		font-size: 34px;
 	}
 	.neon-wrapper {
-		padding: 3.5rem 8rem;
+		padding: 2rem 3rem;
 	}
 	.neon-text,
 	.neon-text-yellow,
-	.neon-text-lg {
-		font-size: 1.5rem;
+	.neon-text-lg,
+	.neon-btn {
+		font-size: 1.2rem;
+	}
+
+	.score-logo img {
+		height: 3.5rem;
+	}
+
+	.score h2 {
+		font-size: 24px;
+	}
+
+	.score p {
+		font-size: 20px;
 	}
 
 	.intro {
@@ -338,11 +351,21 @@ div.fadeIn {
 	}
 
 	.winner {
-		font-size: 45px;
+		font-size: 30px;
 	}
 
 	.hands {
 		margin-bottom: 1rem;
+	}
+
+	.player-hand,
+	.computer-hand {
+		height: 8rem;
+	}
+
+	.options button {
+		padding: 0.6rem 1.4rem;
+		font-size: 18px;
 	}
 
 	.congrats-container {
