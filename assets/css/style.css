@@ -481,6 +481,27 @@ div.fadeIn {
 	animation: all 0.4s ease;
 }
 
+@media only screen and (max-width: 320px) {
+	.congrats-container {
+		width: 21rem;
+	}
+
+	.congrats-content {
+		padding: 57% 10% 20% 10% !important;
+	}
+
+	.congrats-text,
+	.congrats-text-span,
+	.congrats-btn {
+		margin-bottom: 0.6rem !important;
+		font-size: 0.8rem !important;
+	}
+
+	#countdown {
+    font-size: 1rem !important;
+	}
+}
+
 .congrats-content {
 	display: flex;
 	flex-direction: column;
