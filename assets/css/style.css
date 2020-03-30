@@ -369,20 +369,30 @@ div.fadeIn {
 	}
 
 	.congrats-container {
-		width: 35rem;
+		width: 24rem;
 	}
 
 	.congrats-content {
-		padding: 24% 12% !important;
+		padding: 47% 10% 20% 10% !important;
 	}
 
 	.congrats-header {
+		font-size: 1.8rem !important;
 		margin-bottom: 0.5rem;
 	}
 
+	.congrats-text,
+	.congrats-text-span {
+		font-size: 1rem !important;
+	}
+
 	.congrats-btn {
-		padding: 0.2rem 2rem !important;
-		width: 52% !important;
+		font-size: 1rem !important;
+		padding: 0.5rem 2rem !important;
+	}
+
+	#countdown {
+		font-size: 1.5rem !important;
 	}
 }
 
