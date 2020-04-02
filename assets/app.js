@@ -54,7 +54,7 @@ const game = () => {
 					// Update images
 					playerHand.src = `./assets/${this.textContent}.png`;
 					computerHand.src = `./assets/${computerChoice}.png`;
-				}, 2000);
+				}, 2100);
 
 				// Animation
 				playerHand.style.animation = 'shakePlayer 2s ease';
