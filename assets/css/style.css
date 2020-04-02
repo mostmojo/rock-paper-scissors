@@ -293,13 +293,13 @@ div.fadeIn {
 
 .backdrop-images {
 	display: flex;
-	justify-content: space-between;
-	margin-top: 8%;
+	justify-content: space-around;
+	margin-top: 4%;
 	padding: 0 8rem;
 }
 .backdrop-img-left,
 .backdrop-img-right {
-	height: 13vw;
+	height: 24vw;
 }
 
 /* .backdrop-img-right {
