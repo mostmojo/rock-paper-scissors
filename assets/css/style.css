@@ -34,7 +34,7 @@
 body {
 	background-image: url('../background-1.jpg');
 	background-size: auto 100%;
-	/* background-repeat: no-repeat; */
+	background-repeat: round;
 }
 
 section {
