@@ -32,8 +32,9 @@
 } */
 
 body {
-	background-image: url('../background.png');
+	background-image: url('../background-1.jpg');
 	background-size: auto 100%;
+	/* background-repeat: no-repeat; */
 }
 
 section {
