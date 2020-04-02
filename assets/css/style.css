@@ -39,7 +39,10 @@ body {
 
 @media only screen and (max-width: 714px) {
 	body {
-	background-repeat: no-repeat;
+		background-image: url('../background-1.jpg');
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
 }
 
 section {
