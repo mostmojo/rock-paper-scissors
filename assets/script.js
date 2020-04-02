@@ -85,18 +85,18 @@ var time = setInterval(function() {
 
 // Scroll cookie function
 
-$(window).scroll(function (event) {
+$(window).scroll(function(event) {
 	var h = document.documentElement,
-	b = document.body,
-	st = 'scrollTop',
-	sh = 'scrollHeight';
+		b = document.body,
+		st = 'scrollTop',
+		sh = 'scrollHeight';
 
-	var percent = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
-	createCookie("scrolled", parseInt(percent) + "percent", 365);
+	var percent = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+	createCookie('scrolled', parseInt(percent) + 'percent', 365);
 	//console.log(percent + "%");
 });
 
-})(jQuery);
+jQuery;
 
 // Create cookie with name, value and expiration date
 
