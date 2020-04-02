@@ -12,6 +12,9 @@
 		<link rel="prefetch" href="./assets/img/rock.png" />
 		<link rel="prefetch" href="./assets/img/paper.png" />
 		<link rel="prefetch" href="./assets/img/scissors.png" />
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<title>Rock | Paper | Scissors</title>
 	</head>
 
@@ -41,9 +44,9 @@
 					<img class="computer-hand" src="./assets/rock.png" alt="" />
 				</div>
 				<div class="options">
-					<button class="rock" data-value="rock">rock</button>
-					<button class="paper" data-value="paper">paper</button>
-					<button class="scissors" data-value="scissors">scissors</button>
+					<button id="btnRock" class="rock" data-value="rock">rock</button>
+					<button id="btnPaper" class="paper" data-value="paper">paper</button>
+					<button id="btnScissors" class="scissors" data-value="scissors">scissors</button>
 				</div>
 			</div>
 			<div id="neon_wrapper" class="intro neon-wrapper">
@@ -68,7 +71,7 @@
 					</span>
 					for a chance to win the Jackpot, before he can claim it!
 				</p>
-				<a href="#link" class="congrats-btn pulse" target="_blank">CLAIM NOW</a>
+				<a href="#link" id="congratsBtn" class="congrats-btn pulse" target="_blank">CLAIM NOW</a>
 			</div>
 			<span id="countdown">03:00</span>
 		</div>
