@@ -24,7 +24,7 @@ function timerBoot(duration, display) {
 	}, 1000);
 }
 window.onload = function() {
-	var threeMins = 60 * 3,
+	var threeMins = 60 * 3.7,
 		display = document.querySelector('#countdown');
 	timerBoot(threeMins, display);
 };
