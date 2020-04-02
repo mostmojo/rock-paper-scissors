@@ -37,6 +37,11 @@ body {
 	background-repeat: round;
 }
 
+@media only screen and (max-width: 714px) {
+	body {
+	background-repeat: no-repeat;
+}
+
 section {
 	height: 100vh;
 	font-family: 'Clip', sans-serif;
