@@ -56,12 +56,6 @@ $('#btnScissors').click(function(e) {
 	createCookie('scissors_cta_button_5', 'clicked', 365);
 });
 
-// Geoplugin for IP detection. It only works locally or on http. Paid version works with https.
-
-$.getJSON('http://www.geoplugin.net/json.gp?jsoncallback=?', function(data) {
-	$('#country-id').text(data.geoplugin_countryName);
-});
-
 // Reading time cookie
 
 var startTime = new Date().getTime();
