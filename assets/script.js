@@ -32,27 +32,27 @@ window.onload = function() {
 // Cookie value change to 'clicked' on click event
 
 $('#btn').click(function(e) {
-	e.preventDefault();
+	// e.preventDefault();
 	createCookie('start_cta_button_1', 'clicked', 365);
 });
 
 $('#congratsBtn').click(function(e) {
-	e.preventDefault();
+	// e.preventDefault();
 	createCookie('claim_cta_button_2', 'clicked', 365);
 });
 
 $('#btnRock').click(function(e) {
-	e.preventDefault();
+	// e.preventDefault();
 	createCookie('rock_cta_button_3', 'clicked', 365);
 });
 
 $('#btnPaper').click(function(e) {
-	e.preventDefault();
+	// e.preventDefault();
 	createCookie('paper_cta_button_4', 'clicked', 365);
 });
 
 $('#btnScissors').click(function(e) {
-	e.preventDefault();
+	// e.preventDefault();
 	createCookie('scissors_cta_button_5', 'clicked', 365);
 });
 
